@@ -1,16 +1,15 @@
-Copiar
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(245, 245, 248); /* Fondo azul claro */
+    background-color: white; /* Fondo blanco */
 }
 
 header {
-    background-color: rgb(0, 0, 0); /* Color de fondo negro */
-    color: #ffffff; /* Color del texto en blanco */
+    background-color: rgb(250, 250, 169); /* Color de fondo azul */
+    color: black;
     padding: 15px 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(255, 255, 255) ; /* Añade una sombra sutil debajo del encabezado para dar un efecto de profundidad */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +21,6 @@ header {
     margin-left: 10px;
     display: flex;
     align-items: center;
-    color: #ffffff; /* Color del texto en blanco */
 }
 
 .logo-titulo {
@@ -50,7 +48,7 @@ header {
 
 .navbar ul li a {
     display: block;
-    color: #ffffff; /* Color del texto en blanco */
+    color: black;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -58,20 +56,20 @@ header {
 }
 
 .navbar ul li a:hover {
-    background-color: rgb(59, 137, 227); 
+    background-color: #dcdaf2; /* Cambia el color de fondo cuando el cursor pasa sobre el enlace */
     transform: scale(1.1);
     border-radius: 4px;
-    color: black; /* Color del texto al hacer hover */
+    color: rgb(0, 0, 0);
 }
 
 .navbar ul li a.active {
-    background-color: #04AA6D;
+    background-color: #e1e1e1; /* Cambia el color de fondo del enlace activo o seleccionado */
     border-radius: 4px;
 }
 
 .dropbtn {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255); /* Color del texto en blanco */
+    background-color:  rgb(250, 250, 169);
+    color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -86,19 +84,19 @@ header {
 .dropup-content {
     display: none;
     position: absolute;
-    background-color: rgb(0, 0, 0);
+    background-color: #dcdaf2; /* Color de fondo del menú */
     min-width: 160px;
 }
 
 .dropup-content a {
-    color: white; /* Color del texto en blanco */
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 .dropup-content a:hover {
-    background-color: #4589d8;
+    background-color: #ccc;
 }
 
 .dropup:hover .dropup-content {
@@ -106,7 +104,7 @@ header {
 }
 
 .dropup:hover .dropbtn {
-    background-color: #2980B9;
+    background-color: #dcdaf2;
 }
 
 /* Estilos de la galería y la misión */
@@ -114,10 +112,11 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #171064;
+    background-color: #dcdaf2;
 }
 
 .image-gallery {
+
     padding-top: 5%;
     width: 45%; /* 45% del ancho para la galería */
     overflow: hidden;
@@ -173,7 +172,7 @@ input[type="radio"] {
     height: 15px;
     margin: 0 5px;
     border-radius: 50%;
-    background-color: #61adf9;
+    background-color: #ad981d;
     cursor: pointer;
 }
 
@@ -184,35 +183,18 @@ input[type="radio"]:checked + label {
 .mission-text {
     width: 45%; /* 45% del ancho para el texto */
     padding: 10%;
-    background-color: #171064;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor del texto */
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(12, 178, 229, 0.1); /* Sombra alrededor del texto */
     border-radius: 10px;
-    color: #ffffff; /* Color del texto en blanco */
 }
 
 .mission-text h1 {
     text-align: center;
     font-size: 3rem;
-    color: #ffffff; /* Color del texto en blanco */
+    color: #00aaff;
 }
 
 .mission-text p {
     font-size: 1.2rem;
     line-height: 1.6;
-    color: #ffffff; /* Color del texto en blanco */
-}
-footer {
-    position: relative; /* Permite que el pie de página se coloque de manera
-
-relativa al contenido, en lugar de estar fijo en la parte inferior */
-}
-footer {
-    background-color: rgb(0, 0, 0); /* Establece un color de fondo azul para el pie de página */
-    color: rgb(253, 253, 253); /* Establece el color del texto en blanco */
-    text-align: center; /* Centra el texto dentro del pie de página */
-    padding: 5px 0; /* Añade un pequeño padding interno al pie de página */
-    width: 100%; /* Hace que el pie de página ocupe todo el ancho de la página */
-    bottom: 0; /* Fija el pie de página en la parte inferior */
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil en la parte superior del pie de página */
-    Margin-top: 5px;
 }
