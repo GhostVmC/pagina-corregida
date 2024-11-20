@@ -81,7 +81,7 @@ header {
 /* Estilo del botón desplegable */
 .dropbtn {
     background-color:  rgb(250, 250, 169);
-    color: white; /* Color del texto */
+    color: rgb(0, 0, 0); /* Color del texto */
     padding: 16px; /* Relleno del botón */
     font-size: 16px; /* Tamaño de fuente del botón */
     border: none; /* Sin borde */
@@ -201,16 +201,43 @@ input[type="radio"] {
     height: 15px; /* Altura del indicador */
     margin: 0 5px; /* Margen lateral */
     border-radius: 50%; /* Bordes redondeados */
-    background-color: #00aaff; /* Color de fondo del indicador */
+    background-color: #ad981d; /* Color de fondo del indicador */
     cursor: pointer; /* Cursor de puntero al pasar el ratón */
 }
 
 /* Estilo del indicador activo */
 input[type="radio"]:checked + label {
-    background-color: #00aaff; /* Color de fondo del indicador activo */
+    background-color: #fdf0a8; /* Color de fondo del indicador activo */
 }
 
 /* Estilo del texto de visión y misión */
+.container {
+    display: flex; /* Uso de flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Centrar verticalmente el contenido */
+    padding: 20px; /* Relleno del contenedor */
+    background-color: #dcdaf2; /* Fondo blanco */
+    flex-direction: row-reverse; /* Intercambia de lado el texto y la galería */
+}
+
+/* Estilo de la sección de texto explicativo sobre la visión de la empresa. */
+.vision-text {
+    width: 45%; /* Ancho de la sección de texto */
+    padding: 6%; /* Relleno */
+    background-color: #f9f9f9; /* Fondo gris claro */
+    box-shadow: 0 4px 10px rgba(12, 178, 229, 0.1); /* Sombra */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 0; /* Sin margen para alinear mejor */
+}
+
+/* Estilo de los títulos en visión */
+.vision-text h1 {
+    padding-top: 0; /* Sin relleno superior para alinear mejor */
+    text-align: center; /* Alineación central del texto */
+    font-size: 3rem; /* Tamaño de fuente grande */
+    color: black; /* Titulo del texto */
+}
+
 .vision-text, .mission-text {
     width: 45%; /* Ancho de las secciones de visión y misión */
     padding: 6%; /* Relleno */
@@ -224,7 +251,7 @@ input[type="radio"]:checked + label {
     padding-top: 5%; /* Relleno superior */
     text-align: center; /* Alineación central del texto */
     font-size: 3rem; /* Tamaño de fuente grande */
-    color: #00aaff; /* Color azul */
+    color: black; /* Titulo del texto */
 }
 
 /* Estilo de los párrafos en visión y misión */

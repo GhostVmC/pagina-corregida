@@ -11,7 +11,7 @@ body {
 /* Estilos para el encabezado */
 header {
     background-color: rgb(250, 250, 169); /* Aplica un color de fondo azul al encabezado */
-    color: rgb(0, 0, 0); /* Establece el color del texto en blanco dentro del encabezado */
+    color: black; /* Establece el color del texto en blanco dentro del encabezado */
     padding: 15px 20px; /* Añade espacio interno (padding) alrededor del contenido del encabezado */
     box-shadow: 0 4px 6px rgb(255, 255, 255) ; /* Añade una sombra sutil debajo del encabezado para dar un efecto de profundidad */
     display: flex; /* Usa Flexbox para organizar los elementos hijos en una fila */
